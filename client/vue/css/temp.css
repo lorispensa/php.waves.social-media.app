@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#liste-utilisateurs {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#liste-utilisateurs div {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+#liste-utilisateurs p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #5C6BC0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #3F51B5;
+}
